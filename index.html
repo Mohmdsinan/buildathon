@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buildathon</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">Buildathon</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#register">Register</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Build. Learn. Innovate.</h2>
+    <p>A multi-day build program to solve real-world problems.</p>
+    <button onclick="scrollToRegister()">Register Now</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h3>About Buildathon</h3>
+    <p>
+      Buildathon is a hands-on event where students collaborate, learn new skills,
+      and build meaningful projects that solve real problems.
+    </p>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="section dark">
+    <h3>Event Schedule</h3>
+    <ul class="timeline">
+      <li><strong>Day 1:</strong> Orientation & Team Formation</li>
+      <li><strong>Day 2:</strong> Ideation & Planning</li>
+      <li><strong>Day 3:</strong> Development Phase</li>
+      <li><strong>Day 4:</strong> Testing & Refinement</li>
+      <li><strong>Day 5:</strong> Demo & Evaluation</li>
+    </ul>
+  </section>
+
+  <!-- Register -->
+  <section id="register" class="section">
+    <h3>Register</h3>
+    <form class="form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select name="department" id="department">
+        <option value="">-- Select Department --</option>
+        <option value="1">Bsc Computer Science</option>
+        <option value="2">Bsc Maths and Physics</option>
+        <option value="3">Bsc Microbiology</option>
+        <option value="4">Bsc Biochemistry</option>
+        <option value="5">Bsc Biotechnology</option>
+        <option value="6">Bcom CA</option>
+        <option value="7">Bcom Cop</option>
+        <option value="8">BBA</option>
+        <option value="9">Bvoc </option>
+       
+      </select>
+      <select name="year" id="year" required>
+        <option value="">-- Select Year --</option>
+        <option value="1">First Year</option>
+        <option value="2">Second Year</option>
+        <option value="3">Third Year</option>
+      </select>
+      <input type="text" placeholder="Admission Number" />
+      <input type="text" placeholder="Team Name" />
+      <input type="text" placeholder="Team Member 1" />
+      <input type="text" placeholder="Team Member 2" />
+      <input type="text" placeholder="Team Member 3" />
+      <input type="text" placeholder="Team Member 4" />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Buildathon | Powered by Students</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
